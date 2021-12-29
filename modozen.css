@@ -1,0 +1,37 @@
+.Menu-list {
+  display: none;
+}
+
+.Searchv-content {
+  display: none;
+}
+
+.Actionsv2 {
+  display: none;
+}
+
+.Tinkerbell {
+  display: none;
+}
+
+.Header-v2 {
+  display: flex;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.ExamProgress-bar-progress {
+  background-color: #33b1ff;
+}
+
+.ExamProgress-bar-container {
+  background-color: #24385b;
+}
+
+.Nav-header-logged {
+  display: none;
+}
+
+.LogoHeader-container img {
+  filter: brightness(0) invert(1);
+}

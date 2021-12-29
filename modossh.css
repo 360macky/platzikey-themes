@@ -1,0 +1,107 @@
+:root {
+  --green: #b4d273;
+}
+
+* {
+  font-family: 'Fira Code', monospace !important;
+}
+
+.QuestionOption-text {
+  background-color: #141414;
+  border: 0;
+}
+
+.QuestionOption-content {
+  border: 1px solid transparent;
+  grid-template-columns: 3.2rem 1fr;
+  border-radius: 0;
+}
+
+.QuestionOption-letter {
+  border: none;
+  background-color: #212121;
+  border-radius: 0;
+  width: 3.2rem;
+}
+
+.QuestionOption-letter-active {
+  background-color: white;
+  color: black;
+}
+
+.ControlBar-button {
+  border-radius: 0;
+  border: 1px solid white;
+}
+
+.ControlBar-button:disabled {
+  border: 1px solid white;
+}
+
+.LogoHeader-container img {
+  filter: brightness(0) invert(1);
+}
+
+.ExamCountDown-element-wrapper {
+  color: white;
+}
+
+code {
+  background-color: #000000;
+  padding: 1px;
+}
+
+pre {
+  background-color: #000000;
+}
+
+.QuestionOption-letter-span::before {
+  content: '[';
+}
+
+.QuestionOption-letter-span::after {
+  content: ']';
+}
+
+.ExamProgress-bar-container {
+  height: 1rem;
+  border-radius: 0;
+}
+
+.ControlBar-button.ControlBar-button--right {
+  background: transparent;
+  color: var(--green);
+}
+
+.QuestionSelector-title {
+  color: white;
+}
+
+.svg.svg-inline--fa.fa-chevron-right.fa-w-10 {
+  display: none;
+}
+
+.QuestionSelector-title::after {
+  content: ' █';
+}
+
+.ControlBar-button:hover {
+  border: none;
+}
+
+.ExamProgress-top-badge {
+  filter: brightness(0.5) invert(1);
+}
+
+.ExamProgress-top-title::before {
+  content: '[ ';
+}
+
+.ExamProgress-top-title::after {
+  content: ' ]...';
+}
+
+.QuestionOption-content-active {
+  border: 1px solid #212121;
+  border-radius: 0;
+}
