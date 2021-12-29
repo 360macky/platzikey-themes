@@ -96,7 +96,7 @@ pre {
 }
 
 .Header-v2.Header-v2-content.is-dark-header {
-  background: var(--dark-black);
+  background: #141414;
   box-shadow: none;
 }
 
