@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
-html,
-body {
-  padding: 0;
+:root {
+  --dark-blue: #0a1122;
+  --even-dark-blue: #060a14;
+  --really-blue: #121f3d;
+  --clearer-blue: #1d315d;
+  --green: #98ca3f;
+  --skyblue: #33b1ff;
 }
 
 .grid-container {
@@ -14,9 +18,9 @@ body {
 }
 
 canvas {
-  background-color: #121f3d;
+  background-color: var(--really-blue);
   grid-area: canvas;
-  border: solid #1d315d 8px;
+  border: solid var(--really-blue) 8px;
   border-radius: 15px 15px 0px 0px;
   cursor: crosshair;
   height: 300px;
@@ -30,14 +34,14 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1d315d;
+  background-color: var(--clearer-blue);
   width: 936px;
 }
 
 input[type='color'] {
   border-radius: 10px;
-  background-color: #98ca3f;
-  border: 2px solid #98ca3f;
+  background-color: var(--green);
+  border: 2px solid var(--green);
   width: 5rem;
   height: 32px;
   cursor: pointer;
