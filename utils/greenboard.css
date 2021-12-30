@@ -26,7 +26,6 @@ canvas {
 .options {
   grid-area: options;
   margin-top: 20px;
-  background-color: blue;
   border-radius: 0px 0px 15px 15px;
   display: flex;
   justify-content: center;
