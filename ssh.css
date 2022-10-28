@@ -3,7 +3,7 @@
   --dark-black: #212121;
 }
 
-* {
+*:not(span) {
   font-family: 'Fira Code', monospace !important;
 }
 
@@ -159,6 +159,7 @@ pre {
 .Nav-header-logged {
   opacity: 0.8;
   transition: all 0.3s ease;
+  background-color: #141414;
 }
 
 .Nav-header-logged:hover {
@@ -192,6 +193,7 @@ button.EditorWrapper-input {
 
 .Syllabus-container * {
   background-color: #141414;
+  color: white;
 }
 
 .Card--dark {
@@ -217,4 +219,41 @@ form.EditorWrapper-form {
 .NewSearch-box {
   background-color: #141414;
   border-radius: 0;
+}
+
+.LabTutorials-contributions {
+  background-color: #141414;
+}
+
+.Contribution {
+  background-color: #141414;
+}
+
+p.Contribution-extract {
+  color: white;
+}
+
+.ProfileHeader {
+  background-color: #141414;
+}
+
+.ProfileScore {
+  background-color: #141414;
+  color: white;
+}
+
+.MaterialView-community img {
+  border-radius: 0;
+}
+
+button {
+  border-radius: 0 !important;
+}
+
+.ContentMardown-gradient {
+  background: transparent !important;
+}
+
+.EditorWrapper-form-submit {
+  background-color: white;
 }
