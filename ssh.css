@@ -157,8 +157,64 @@ pre {
 }
 
 .Nav-header-logged {
-  display: none;
+  opacity: 0.8;
+  transition: all 0.3s ease;
 }
 
+.Nav-header-logged:hover {
+  opacity: 1;
+}
 
+/* For other Platzi pages */
+.StudentsHome-wrapper {
+  background-color: #141414;
+}
 
+.NavigationTabs {
+  background-color: #141414;
+}
+
+.MaterialView-community {
+  background-color: #141414;
+}
+
+button.EditorWrapper-input {
+  background-color: #141414;
+}
+
+.MaterialView-content-wrapper {
+  background-color: #141414;
+}
+
+.MaterialView-video {
+  background-color: #141414;
+}
+
+.Syllabus-container * {
+  background-color: #141414;
+}
+
+.Card--dark {
+  background-color: #141414;
+}
+
+form.EditorWrapper-form {
+  background-color: #141414 !important;
+}
+
+.PulseEditor-field {
+  background-color: #141414;
+}
+
+.Content--main .Content-body-like {
+  background-color: #141414;
+}
+
+.Content-body-text {
+  border: 0;
+}
+
+.NewSearch-box {
+  background-color: #141414;
+  border-radius: 0;
+}
