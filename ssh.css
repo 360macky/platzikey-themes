@@ -173,6 +173,11 @@ pre {
 
 .NavigationTabs {
   background-color: #141414;
+  border-bottom: 1px solid #fff;
+}
+
+button.learningPathCard {
+  background-color: #141414;
 }
 
 .MaterialView-community {
@@ -256,4 +261,17 @@ button {
 
 .EditorWrapper-form-submit {
   background-color: white;
+}
+
+div#LiveChatWrapper * {
+  background-color: #141414;
+  color: white;
+}
+
+.LiveDetails {
+  background-color: #141414;
+}
+
+.box * {
+  background-color: #141414 !important;
 }
