@@ -275,3 +275,39 @@ div#LiveChatWrapper * {
 .box * {
   background-color: #141414 !important;
 }
+
+.learningPathCard {
+  background-color: #141414 !important;
+}
+
+.DiscusionDetail-comments.is-not-blog {
+  background-color: #141414 !important;
+}
+
+div#container {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+.Syllabus-toggle:hover {
+  background-color: gray;
+}
+
+button.LikeButton {
+  background: transparent;
+}
+
+button.Header-course-actions-next {
+  background-color: white;
+}
+
+.Header-course-actions-prev {
+  color: white;
+  border: 1px solid white;
+}
